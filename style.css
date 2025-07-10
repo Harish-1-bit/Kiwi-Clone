@@ -491,12 +491,13 @@ main{
         }
         .x:nth-child(1){
             transform: rotate(-15deg);
+            opacity: 0.3;
         }
         .x:nth-child(2){
             transform: rotate(-15deg)             translateY(-115px);
             position: relative;
             left: 40px;
-
+            opacity: 0.7;
         }
         .x:nth-child(3){
             transform: translateY(-170px);
@@ -506,9 +507,11 @@ main{
             transform: rotate(15deg) translateY(-115px);
             position: relative;
             right: 40px;
+            opacity: 0.7;
         }
         .x:nth-child(5){
             transform: rotate(15deg);
+            opacity: 0.3;
         }
 
     }
