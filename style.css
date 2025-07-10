@@ -10,7 +10,7 @@
 .background{
     height: 100vh;
     width: 100%;
-    background-image: url("/mainvideo.png");
+    background-image: url("mainvideo.png");
     background-size: cover;
     background-position: center;
 z-index: 1;
